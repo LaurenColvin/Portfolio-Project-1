@@ -3,9 +3,15 @@ nav {
 }
 h1 {
     text-transform: lowercase;
+    font-size: 60px;
 }
 h3 {
     text-transform: uppercase;
+    text-align:center;
+}
+
+.menu-closed h3 {
+    text-align: left;
 }
 
 li {
@@ -19,4 +25,14 @@ li {
 
 .about-img {
     max-width: 100%;
+}
+
+.icon {
+    width: 15px;
+}
+
+.project-one-img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
 }
