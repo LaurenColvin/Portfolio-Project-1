@@ -82,6 +82,23 @@ Include images of wireframe with a description of the specific wireframe.
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
 
+[Hamburger Menu](https://fontawesome.com/v5.15/icons/bars?style=solid)
+ 
+ [Instagram Icon](https://fontawesome.com/v5.15/icons/instagram?style=brands)
+ 
+ [Facebook Icon](https://fontawesome.com/v5.15/icons/facebook-square?style=brands)
+ 
+ [Pinterest Icon](https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=pinterest)
+ 
+ [Wordpress Icon](https://fontawesome.com/v5.15/icons/wordpress?style=brands)
+
+ [Javascript Icon](https://fontawesome.com/v5.15/icons/js-square?style=brands)
+
+ [HTML Icon](https://fontawesome.com/v5.15/icons/html5?style=brands)
+
+ [CSS Icon](https://fontawesome.com/v5.15/icons/css3-alt?style=brands)
+
+
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
@@ -96,5 +113,7 @@ function reverse(string) {
  Use this section to list of all major issues encountered and their resolution.
 
 #### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+**ERROR**: Your branch and 'origin/main' have diverged,
+and have 3 and 2 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)                         
+**RESOLUTION**: If you dont care about the changes you made on github.com and just want to override it with your local files then we can use git push origin main --force
