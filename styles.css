@@ -1,22 +1,118 @@
+@font-face {
+    font-family: Northern-Worssley; src: url('assets/Northern\ Worssley\ Free.ttf');
+}
+
+@font-face { font-family: Creattion; src: url('assets/modernline.otf'); 
+} 
+
 nav {
     background-color:azure;
 }
-h1 {
-    text-transform: lowercase;
-    font-size: 60px;
+
+.menu-closed {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 100%;
+    max-height: 100px;
+    /* display: none; */
 }
-h3 {
-    text-transform: uppercase;
-    text-align:center;
+
+.menu-open {
+    display: none;
+}
+
+.hamburger-menu {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .menu-closed h3 {
     text-align: left;
 }
 
+h6 {
+    font-family: Northern-Worssley;
+    letter-spacing: 3px;
+    writing-mode: vertical-lr;
+    text-orientation: sideways-right;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+#hamburger-icon {
+    /* display: flex;
+    justify-content: right; */
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+#x-icon {
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
 li {
     list-style-type: none;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    font-family: Northern-Worssley;
+    letter-spacing: 3px;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+
+.intro {
+    background-color: bisque;
+}
+
+.about-container {
+    background-color: cornsilk;
+}
+
+.skills-container {
+    background-color: honeydew;
+}
+
+.projects-container {
+    background-color: lightgrey;
+}
+
+.contact-container {
+    background-color:lightsteelblue;
+}
+
+
+h1 {
+    text-transform: lowercase;
+    font-size: 60px;
+    font-family: Creattion;
+    text-align: center;
+}
+
+.intro h1 {
+    text-align: left;
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align:center;
+    font-family: Northern-Worssley;
+    letter-spacing: 3px;
+}
+
+
 
 .headshot {
     width: 200px;
