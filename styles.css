@@ -30,6 +30,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   text-align: center;
+  font-size: 30px;
   font-family: Northern-Worssley;
   letter-spacing: 3px;
 }
@@ -46,11 +47,22 @@ h5 {
   font-size: 20px;
 }
 
+h6 {
+    font-family: Northern-Worssley;
+    letter-spacing: 3px;
+    writing-mode: vertical-lr;
+    margin-right: 8px;
+    margin-top: -13px;
+    display: inline;
+    vertical-align: middle;
+  }
+
 p {
   font-size: 20px;
   color: white;
   padding: 0 40px 0 40px;
   text-align: justify;
+  line-height: 35px;
 }
 
 /* NAV BAR STYLING */
@@ -79,17 +91,7 @@ nav {
 .hamburger-menu {
   justify-content: flex-end;
   align-content: center;
-  margin-top: 15px;
-}
-
-h6 {
-  font-family: Northern-Worssley;
-  letter-spacing: 3px;
-  writing-mode: vertical-lr;
-  margin-right: 8px;
-  margin-top: -13px;
-  display: inline;
-  vertical-align: middle;
+  margin-top: 18px;
 }
 
 #hamburger-icon {
@@ -129,8 +131,8 @@ li {
 
 /* BACKGROUND IMAGE STYLING */
 body {
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 .img-container {
@@ -169,7 +171,7 @@ body {
 
 /* ABOUT STYLING */
 .about-container {
-  background-color: rosybrown;
+  background-color: #dd9f94;
 }
 
 .about-img {
@@ -180,19 +182,50 @@ body {
     margin-top: -5px;
     padding: 0 40px 0 40px;
     text-align: justify;
+    line-height: 35px;
+}
+
+.about-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-right: 20px;
+}
+
+#social {
+    padding: 0 15px 0 15px;
+    color: ivory;
 }
 
 button {
     margin-bottom: 10%;
+    margin-left: 40px;
+    margin-right: 30px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    font-family: Northern-Worssley;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    border: none;
+    background-color: ivory;
+    height: 50px;
+    width: 200px;
 }
 
 /* SKILLS STYLING */
-.skills-container {
-  background-color: honeydew;
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#skill {
+    color: black;
+}
+
+.adobe {
+    width: 45px;
+    /* background-color: azure; */
 }
 
 /* PROJECTS STYLING */
