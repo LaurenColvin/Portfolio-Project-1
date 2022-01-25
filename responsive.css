@@ -1,7 +1,43 @@
 @media only screen and (min-width: 768px) {
+    
+/* NAV BAR STYLING */
     nav {
-        background-color: burlywood;
     }
+
+    .menu-items {
+        display: inline-block;
+        align-content: center;
+        font-size: 15px;
+        padding: 0 20px;
+    }
+
+    nav h3 {
+        padding-top: 20px;
+    }
+
+/* OPEN MENU STYLING */
+.menu-open {
+  }
+
+/* INTRO STYLING */
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-text {
+    margin-left: 3%;
+}
+
+.headshot {
+    width: 40%;
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+    object-fit: cover;
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 1024px) {
