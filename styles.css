@@ -23,7 +23,7 @@ h1 {
 
 h2 {
   font-size: 40px;
-  color: white;
+  color: ivory;
   margin-top: -35px;
 }
 
@@ -37,7 +37,7 @@ h3 {
 
 h4 {
   font-size: 25px;
-  color: white;
+  color: ivory;
   font-weight: 200;
 }
 
@@ -48,18 +48,18 @@ h5 {
 }
 
 h6 {
-    font-family: Northern-Worssley;
-    letter-spacing: 3px;
-    writing-mode: vertical-lr;
-    margin-right: 8px;
-    margin-top: -13px;
-    display: inline;
-    vertical-align: middle;
-  }
+  font-family: Northern-Worssley;
+  letter-spacing: 3px;
+  writing-mode: vertical-lr;
+  margin-right: 8px;
+  margin-top: -13px;
+  display: inline;
+  vertical-align: middle;
+}
 
 p {
   font-size: 20px;
-  color: white;
+  color: ivory;
   padding: 0 40px 0 40px;
   text-align: justify;
   line-height: 35px;
@@ -131,6 +131,7 @@ li {
 
 /* BACKGROUND IMAGE STYLING */
 body {
+  background-color: #f5f2e6;
   margin: 0;
   padding: 0;
 }
@@ -156,7 +157,7 @@ body {
 }
 
 .intro h4 {
-    margin-top: -25px;
+  margin-top: -25px;
 }
 
 .headshot {
@@ -166,7 +167,7 @@ body {
 }
 
 #down-arrow {
-    margin-bottom: 20%;
+  margin-bottom: 20%;
 }
 
 /* ABOUT STYLING */
@@ -179,71 +180,143 @@ body {
 }
 
 .about-me h4 {
-    margin-top: -5px;
-    padding: 0 40px 0 40px;
-    text-align: justify;
-    line-height: 35px;
+  margin-top: -5px;
+  padding: 0 40px 0 40px;
+  text-align: justify;
+  line-height: 35px;
 }
 
 .about-icons {
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    margin-right: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin-right: 20px;
 }
 
 #social {
-    padding: 0 15px 0 15px;
-    color: ivory;
+  padding: 0 15px 0 15px;
+  color: ivory;
 }
 
-button {
-    margin-bottom: 10%;
-    margin-left: 40px;
-    margin-right: 30px;
-    text-align: center;
-    font-family: Northern-Worssley;
-    letter-spacing: 3px;
-    font-size: 20px;
-    font-weight: 900;
-    color: black;
-    border: none;
-    background-color: ivory;
-    height: 50px;
-    width: 200px;
+.button {
+  margin-bottom: 10%;
+  margin-left: 40px;
+  margin-right: 30px;
+  text-align: center;
+  font-family: Northern-Worssley;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+  border: none;
+  background-color: ivory;
+  height: 50px;
+  width: 200px;
 }
 
 /* SKILLS STYLING */
 .icons-container {
+  margin: 0 40px 0 40px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #skill {
-    color: black;
+  color: black;
+  padding: 20px;
 }
 
 .adobe {
-    width: 45px;
-    /* background-color: azure; */
+  width: 60px;
+  padding: 20px;
+  /* background-color: azure; */
 }
 
 /* PROJECTS STYLING */
 .projects-container {
-  background-color: lightgrey;
+  background-color: white;
+  padding-bottom: 40px;
+}
+
+.projects-container h3 {
+  padding: 40px 0;
+}
+
+.projects-container h2 {
+  color: lightsteelblue;
+  font-size: 80px;
+  margin-left: 20%;
+  margin-bottom: -80px;
+}
+
+.projects-container h1 {
+  text-align: right;
+  font-size: 30px;
+  transform: rotate(-3deg);
+  margin-right: 20%;
+  margin-top: -80px;
+}
+
+.project-one h3 {
+  font-size: 15px;
+  padding: 0 40px;
+}
+
+.project-one-img {
+  width: 70%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+#right-arrow {
+  color: lightsteelblue;
+  margin-top: -20px;
+  margin-right: 10%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* CONTACT STYLING */
 .contact-container {
-  background-color: lightsteelblue;
+  background-color: #dd9f94;
 }
 
-.icon {
-  width: 15px;
+.contact-container h1 {
+  padding: 20px;
 }
 
-.project-one-img {
-  width: 400px;
-  height: 300px;
-  object-fit: cover;
+.contact-container h2 {
+    padding: 20px;
+    margin-top: -80px;
+    text-align: center;
+    margin-bottom: -10px;
+  }
+
+form {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+input {
+  color: black;
+  margin: 10px;
+  padding: 10px;
+  width: 50%;
+  font-size: 15px;
+  font-family: Northern-Worssley;
+  letter-spacing: 3px;
+}
+
+.contact-container .button {
+    margin: 0;
+  }
+
+/* FOOTER STYLING */
+
+footer h3 {
+  font-size: 10px;
+  text-align: right;
+  margin-right: 30px;
 }
