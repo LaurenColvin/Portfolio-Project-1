@@ -267,7 +267,7 @@ body {
   margin-top: -80px;
 }
 
-.project-one h3 {
+.carousel h3 {
   font-size: 15px;
   padding: 0 40px;
 }
@@ -281,10 +281,13 @@ body {
 
 #right-arrow {
   color: var(--blue);
-  margin-top: -20px;
   margin-right: 10%;
   display: flex;
   justify-content: flex-end;
+}
+
+.project-two {
+    display: none;
 }
 
 /* CONTACT STYLING */
@@ -320,6 +323,12 @@ input {
 
 .contact-container .button {
     margin: 0;
+  }
+
+  .headshot-contact {
+    width: 200px;
+    object-fit: cover;
+    display: none;
   }
 
 /* FOOTER STYLING */
