@@ -9,9 +9,9 @@ Portfolio Website using HTML, CSS and Javascript
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 1| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 2| Responsive Web Design | Incomplete
-|Day 2| Extra elements and functionality | Incomplete
+|Day 1| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 2| Responsive Web Design | Complete
+|Day 2| Extra elements and functionality | In Progress
 |Day 3| MVP & Bug Fixes | Incomplete
 |Day 4| Putting together Fonts/colors/images for Branding | Incomplete
 |Day 4| Final Touches | Incomplete
@@ -57,14 +57,14 @@ Include images of wireframe with a description of the specific wireframe.
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
+| Hamburger | H | 1hr | 2hrs |
 | Project Carousel | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
+| Regular Nav | H | 1hr | 1hr |  
 | Adding Form | M | 1.5hr|  hr | 
 | Read More Button | L | 2.5hr|  hr |
 | Other sections and flex| M | 2hr | hr|
 | Scrolling Arrow | L | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
+| Responsive | H | 3hr | 3hrs |
 | Social Media Icons | L | 1hr |  hr |
 | Total | H | 15.5hrs| hrs |
 
