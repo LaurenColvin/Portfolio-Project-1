@@ -1,9 +1,6 @@
 @media only screen and (min-width: 768px) {
     
 /* NAV BAR STYLING */
-    nav {
-    }
-
     .menu-items {
         display: inline-block;
         align-content: center;
@@ -13,6 +10,7 @@
 
     nav h3 {
         padding-top: 20px;
+        padding-left: 20px;
     }
 
 /* OPEN MENU STYLING */
@@ -32,12 +30,78 @@
 .headshot {
     width: 40%;
     height: 20%;
-    margin-top: 10%;
-    margin-left: 10%;
+    margin: 10% 0 10% 10%;
     object-fit: cover;
     display: block;
   }
 
+
+/* ABOUT STYLING */
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    max-width: 40%;
+    object-fit: cover;
+    min-height: 60%;
+}
+
+
+/* SKILLS STYLING */
+#skill {
+    padding: 15px;
+}
+
+.adobe {
+    padding: 15px;
+}
+
+/* PROJECTS STYLING */
+.carousel {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-two {
+    display: block;
+}
+
+.project-one-img {
+    width: 80%;
+    height: 300px;
+}
+
+.project-two-img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    object-position: center;
+  }
+
+
+/* CONTACT STYLING */
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 0;
+}
+  
+.contact-text {
+    /* margin-top: 15%; */
+}
+
+.headshot-contact {
+    display: block;
+    width: 50%;
+    margin-right: -50px;
+    height: 450px;
+    position: relative;
+    object-position: bottom;
 }
 
 @media only screen and (min-width: 1024px) {
