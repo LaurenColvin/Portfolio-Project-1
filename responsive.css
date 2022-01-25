@@ -104,8 +104,198 @@
     object-position: bottom;
 }
 
+}   
+
 @media only screen and (min-width: 1024px) {
-    nav {
-        background-color: cadetblue;
+
+
+/* FONT STYLING */
+h1 {
+    font-size: 105px;
+  }
+  
+  h2 {
+    font-size: 90px;
+  }
+  
+  h3 {
+    font-size: 60px;
+  }
+  
+  h4 {
+    font-size: 75px;
+  }
+  
+ .about-me h4 {
+    line-height: 80px;
+  }
+
+  h5 {
+    font-size: 70px;
+  }
+  
+  h6 {
+    font-size: 30px;
+    margin-top: -40px;
+  }
+  
+  p {
+    font-size: 70px;
+    line-height: 75px;
+  }
+
+li {
+    font-size: 60px;
+    line-height: 120px;
+}
+
+.menu-items {
+    font-size: 35px;
+    padding: 0 50px;
+}
+
+/* ICON SIZE ADJUSTMENT */
+#hamburger-icon {
+    display: none;
+  }
+  
+  #web-hamburger-icon {
+      display: inline;
+      margin-right: 40px;
+  }
+
+  #social {
+    display: none;
+  }
+  
+  #social-web {
+      display: inline;
+      padding: 0 80px;
+      color: ivory;
+  }
+
+  .button {
+      height: 100px;
+      width: 500px;
+      font-size: 50px;
+  }
+
+  #skill {
+    display: none;
+  }
+  
+  #skill-web {
+      display: inline;
+      color: black;
+      padding: 20px;
     }
+
+.adobe {
+     width: 150px;
+     padding: 20px;
+}
+
+#right-arrow {
+    display: none;
+  }
+  
+  #right-arrow-web {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 10%;
+      color: var(--blue);
+  }
+
+    
+/* IMAGE SIZE ADJUSTMENT */
+.headshot {
+    width: 30%;
+    height: 10%;
+    margin: 10% 10% 5% 5%;
+  }
+
+.headshot-contact {
+    display: block;
+    /* width: 50%; */
+    height: 1300px;
+    margin-right: -250px;
+    position: relative;
+    object-position: center;
+}
+
+/* INTRO STYLING */
+.intro-text {
+    margin-left: 5%;
+    margin-top: -200px;
+}
+
+#down-arrow {
+    margin-bottom: 10%;
+  }
+
+  /* PROJECTS SIZE ADJUSTMENT */
+  .carousel h3 {
+    padding: 40px 0;
+    font-size: 40px;
+  }
+  
+  .projects-container h2 {
+    font-size: 160px;
+    margin-left: 10%;
+    margin-bottom: -180px;
+  }
+  
+  .projects-container h1 {
+    font-size: 80px;
+    transform: rotate(-3deg);
+    margin-right: 10%;
+    margin-top: -80px;
+  }
+
+
+.project-one-img {
+    width: 100%;
+    height: 800px;
+}
+
+.project-two-img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+  }
+
+/* CONTACT STYLING */
+.contact-text {
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.contact-container h1 {
+    padding: 40px;
+    margin-top: 100px;
+    font-size: 140px;
+  }
+
+.contact-container h2 {
+    margin-top: -150px;
+  }
+  
+  input {
+    margin: 30px;
+    padding: 20px;
+    width: 70%;
+    font-size: 35px;
+    font-family: Northern-Worssley;
+    letter-spacing: 3px;
+  }
+  
+  .contact-container .button {
+      margin: 0;
+    }
+
+/* FOOTER STYLING */
+
+footer h3 {
+    font-size: 25px;
+  }
+
 }
