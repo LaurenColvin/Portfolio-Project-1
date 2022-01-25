@@ -98,6 +98,9 @@ Include images of wireframe with a description of the specific wireframe.
 
  [CSS Icon](https://fontawesome.com/v5.15/icons/css3-alt?style=brands)
 
+ [Arrow Icon](https://fontawesome.com/v5.15/icons/arrow-circle-right?style=solid)
+
+ [X Icon](https://fontawesome.com/v5.15/icons/times?style=solid)
 
 ## Code Snippet
 
