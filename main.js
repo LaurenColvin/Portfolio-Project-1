@@ -18,19 +18,73 @@ if (typeof $ == 'undefined'){
     e.preventDefault();
   };
 
-  $('.hamburger-menu' ).on('click', openMenu);
+  $('.click-menu' ).on('click', openMenu);
 
   $('#x-icon' ).on('click', closeMenu);
 
-  const goDown = function(e) {
-    console.log('scroll')
+  const goAbout = function(e) {
+    console.log('about')
     $("html, body").animate({
       scrollTop: $(".about-container").offset().top
-    }, 2000);
+    }, 500);
     e.preventDefault();
   };
 
-  $('#down-arrow' ).on('click', goDown);
+  $('#down-arrow' ).on('click', goAbout);
+  $('#about' ).on('click', goAbout);
+  $('#about-open').on('click', goAbout, closeMenu)
+
+  const goProjects = function(e) {
+    console.log('projects')
+    $("html, body").animate({
+      scrollTop: $(".projects-container").offset().top
+    }, 500);
+    e.preventDefault();
+  };
+
+  $('#projects' ).on('click', goProjects);
+  $('#projects-open').on('click', goProjects, closeMenu)
+
+  const goContact = function(e) {
+    console.log('contact')
+    $("html, body").animate({
+      scrollTop: $(".contact-container").offset().top
+    }, 500);
+    e.preventDefault();
+  };
+
+  $('#contact' ).on('click', goContact);
+  $('#contact-open').on('click', goContact, closeMenu)
+
+const goInsta = function(e) {
+  console.log('insta')
+  window.open('https://www.instagram.com/laurencoolvin/?hl=en', '_blank')
+}
+
+$('#insta').on('click', goInsta);
+
+const goLinkedin = function(e) {
+  console.log('linkedin')
+  window.open('https://www.linkedin.com/in/laurenleighcolvin/', '_blank')
+}
+
+$('#linkedin').on('click', goLinkedin);
+
+
+const goCodepen = function(e) {
+  console.log('codepen')
+  window.open('https://codepen.io/laurencolvin', '_blank')
+}
+
+$('#codepen').on('click', goCodepen);
+
+const goGithub = function(e) {
+  console.log('github')
+  window.open('https://github.com/LaurenColvin', '_blank')
+}
+
+$('#github').on('click', goGithub);
+
 
 
 });
