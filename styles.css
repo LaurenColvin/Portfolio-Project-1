@@ -2,11 +2,13 @@
 @font-face {
   font-family: Northern-Worssley;
   src: url("assets/Northern\ Worssley\ Free.ttf");
+  font-size: 100%;
 }
 
 @font-face {
   font-family: Creattion;
   src: url("assets/modernline.otf");
+  font-size: 100%;
 }
 
 /* COLOR SCHEME */
@@ -14,12 +16,13 @@
 :root {
     --pink: #dd9f94;
     --blue: #ABCFE3;
+    --tan: #f5f2e6;
 }
 
 /* FONT STYLING */
 h1 {
   text-transform: lowercase;
-  font-size: 55px;
+  font-size: 3.6em;
   font-family: Creattion;
   text-align: center;
   margin: 0 auto;
@@ -27,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2.5em;
   color: ivory;
   margin-top: -35px;
 }
@@ -35,13 +38,13 @@ h2 {
 h3 {
   text-transform: uppercase;
   text-align: center;
-  font-size: 30px;
+  font-size: 2em;
   font-family: Northern-Worssley;
   letter-spacing: 3px;
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 1.5em;
   color: ivory;
   font-weight: 200;
 }
@@ -49,11 +52,12 @@ h4 {
 h5 {
   font-family: Northern-Worssley;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 h6 {
   font-family: Northern-Worssley;
+  font-size: .8em;
   letter-spacing: 3px;
   writing-mode: vertical-lr;
   margin-right: 8px;
@@ -63,7 +67,7 @@ h6 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.3em;
   color: ivory;
   padding: 0 10%;
   text-align: justify;
@@ -75,6 +79,7 @@ nav {
   margin: 0 auto;
   padding: 0;
   position: sticky;
+  background-color: var(--tan);
 }
 
 .menu-items {
@@ -83,8 +88,9 @@ nav {
 
 .menu-closed h3 {
   text-align: left;
-  margin-left: 30px;
+  margin-left: 1.5em;
   margin-top: 20px;
+  font-size: 1.5em;
 }
 
 .menu-closed {
@@ -117,7 +123,7 @@ nav {
 .menu-open {
   display: none;
   height: 100%;
-  background-color: azure;
+  background-color: var(--tan);
 }
 
 #x-icon {
@@ -132,7 +138,7 @@ li {
   list-style-type: none;
   text-align: center;
   line-height: 80px;
-  font-size: 30px;
+  font-size: 1.8em;
   font-family: Northern-Worssley;
   letter-spacing: 3px;
 }
@@ -145,7 +151,7 @@ li {
 
 /* BACKGROUND IMAGE STYLING */
 body {
-  background-color: #f5f2e6;
+  background-color: var(--tan);
   margin: 0;
   padding: 0;
 }
@@ -223,7 +229,7 @@ body {
   text-align: center;
   font-family: Northern-Worssley;
   letter-spacing: 3px;
-  font-size: 20px;
+  font-size: 1.3em;
   font-weight: 900;
   color: black;
   border: none;
@@ -267,21 +273,21 @@ body {
 
 .projects-container h2 {
   color: var(--blue);
-  font-size: 80px;
+  font-size: 5em;
   margin-left: 20%;
   margin-bottom: -80px;
 }
 
 .projects-container h1 {
   text-align: right;
-  font-size: 30px;
+  font-size: 1.8em;
   transform: rotate(-3deg);
   margin-right: 20%;
   margin-top: -80px;
 }
 
 .carousel h3 {
-  font-size: 15px;
+  font-size: 1em;
   padding: 0 40px;
 }
 
@@ -333,7 +339,7 @@ input {
   margin: 10px;
   padding: 10px;
   width: 50%;
-  font-size: 15px;
+  font-size: 1em;
   font-family: Northern-Worssley;
   letter-spacing: 3px;
 }
@@ -351,7 +357,7 @@ input {
 /* FOOTER STYLING */
 
 footer h3 {
-  font-size: 10px;
+  font-size: .8em;
   text-align: right;
   margin-right: 30px;
 }
