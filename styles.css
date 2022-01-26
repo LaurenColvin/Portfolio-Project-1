@@ -1,3 +1,8 @@
+/* STYLING FOR ALL */
+html, body {
+  scroll-behavior: smooth;
+}
+
 /* FONT LINKS */
 @font-face {
   font-family: Northern-Worssley;
@@ -119,6 +124,10 @@ nav {
     display: none;
 }
 
+.click-menu {
+  display: inline;
+}
+
 /* OPEN MENU STYLING */
 .menu-open {
   display: none;
@@ -130,8 +139,6 @@ nav {
   display: flex;
   justify-content: right;
   margin-right: 30px;
-  padding-top: 30px;
-  padding-bottom: 50px;
 }
 
 li {
@@ -213,13 +220,13 @@ body {
   margin-right: 10%;
 }
 
-#social {
+#linkedin, #codepen, #github, #insta, #facebook, #pinterest  {
   padding: 0 15px;
   color: ivory;
 }
 
-#social-web {
-    display: none;
+#insta, #facebook, #pinterest {
+  display: none;
 }
 
 .button {
