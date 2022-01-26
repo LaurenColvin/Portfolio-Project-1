@@ -22,4 +22,15 @@ if (typeof $ == 'undefined'){
 
   $('#x-icon' ).on('click', closeMenu);
 
+  const goDown = function(e) {
+    console.log('scroll')
+    $("html, body").animate({
+      scrollTop: $(".about-container").offset().top
+    }, 2000);
+    e.preventDefault();
+  };
+
+  $('#down-arrow' ).on('click', goDown);
+
+
 });
