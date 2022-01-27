@@ -32,7 +32,9 @@ if (typeof $ == 'undefined'){
 
   $('#down-arrow' ).on('click', goAbout);
   $('#about' ).on('click', goAbout);
-  $('#about-open').on('click', goAbout, closeMenu)
+  $('#about-open').on('click', closeMenu);
+  $('#about-open').on('click', goAbout);
+  
 
   const goProjects = function(e) {
     console.log('projects')
@@ -43,7 +45,8 @@ if (typeof $ == 'undefined'){
   };
 
   $('#projects' ).on('click', goProjects);
-  $('#projects-open').on('click', goProjects, closeMenu)
+  $('#projects-open').on('click', closeMenu);
+  $('#projects-open').on('click', goProjects);
 
   const goContact = function(e) {
     console.log('contact')
@@ -54,7 +57,8 @@ if (typeof $ == 'undefined'){
   };
 
   $('#contact' ).on('click', goContact);
-  $('#contact-open').on('click', goContact, closeMenu)
+  $('#contact-open').on('click', closeMenu);
+  $('#contact-open').on('click', goContact);
 
 const goInsta = function(e) {
   console.log('insta')
