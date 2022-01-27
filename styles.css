@@ -16,11 +16,17 @@ html, body {
   font-size: 100%;
 }
 
+@font-face {
+  font-family: Bohemian-Soul;
+  src: url("assets/Bohemian\ Soul.otf");
+  font-size: 100%;
+}
+
 /* COLOR SCHEME */
 
 :root {
-    --pink: #dd9f94;
-    --blue: #ABCFE3;
+    --pink: ivory;
+    --blue: #BACDBD;
     --tan: #f5f2e6;
 }
 
@@ -38,6 +44,8 @@ h2 {
   font-size: 2.5em;
   color: ivory;
   margin-top: -35px;
+  /* font-family: Bohemian-Soul;
+  line-height: 30px; */
 }
 
 h3 {
@@ -52,6 +60,8 @@ h4 {
   font-size: 1.5em;
   color: ivory;
   font-weight: 200;
+  /* font-family: Bohemian-Soul;
+  line-height: 30px; */
 }
 
 h5 {
@@ -77,6 +87,7 @@ p {
   padding: 0 10%;
   text-align: justify;
   line-height: 35px;
+  /* font-family: Bohemian-Soul; */
 }
 
 /* NAV BAR STYLING */
@@ -180,7 +191,7 @@ body {
 .intro h1 {
   text-align: left;
   margin-left: 15px;
-  margin-top: 50%;
+  margin-top: 45%;
 }
 
 .intro h4 {
@@ -245,6 +256,34 @@ body {
   width: 200px;
 }
 
+/* CHANGE TO READ MORE WITH A SPAN */
+
+/* .pop-out {
+  display: none;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: var(--tan);
+}
+
+.read-more-content {
+  border: 1px solid black;
+  width: 80%;
+  margin: 15% auto;
+}
+
+#x-out {
+  float: right;
+  color: black;
+} */
+
+/* READ MORE WITH SPAN */
+
+#more {
+  display: none;
+}
+
 /* SKILLS STYLING */
 .icons-container {
   margin: 0 10%;
@@ -271,11 +310,11 @@ body {
 /* PROJECTS STYLING */
 .projects-container {
   background-color: white;
-  padding-bottom: 40px;
+  padding: 40px;
 }
 
 .projects-container h3 {
-  padding: 40px 0;
+  padding-top: 40px;
 }
 
 .projects-container h2 {
@@ -283,6 +322,7 @@ body {
   font-size: 5em;
   margin-left: 20%;
   margin-bottom: -80px;
+  margin-top: 10%;
 }
 
 .projects-container h1 {
@@ -298,7 +338,7 @@ body {
   padding: 0 40px;
 }
 
-.project-one-img {
+.projects img {
   width: 70%;
   object-fit: cover;
   display: block;
@@ -316,9 +356,10 @@ body {
     display: none;
 }
 
-.project-two {
+.projects {
     display: none;
 }
+
 
 /* CONTACT STYLING */
 .contact-container {
@@ -327,6 +368,7 @@ body {
 
 .contact-container h1 {
   padding: 20px;
+  margin-top: 10%;
 }
 
 .contact-container h2 {
@@ -349,6 +391,10 @@ input {
   font-size: 1em;
   font-family: Northern-Worssley;
   letter-spacing: 3px;
+}
+
+textarea {
+  margin-bottom: 20px;
 }
 
 .contact-container .button {
