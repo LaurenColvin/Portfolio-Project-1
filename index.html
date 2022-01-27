@@ -39,9 +39,9 @@
           <li id="projects-open">Projects</li>
           <li id="contact-open">Contact Me</li>
           <div class="social-icons">
-            <i class="fab fa-instagram fa-4x"></i>
-            <i class="fab fa-facebook-square fa-4x"></i>
-            <i class="fab fa-pinterest-square fa-4x"></i>
+            <i id="insta-open" class="fab fa-instagram fa-4x"></i>
+            <i id="fb-open" class="fab fa-facebook-square fa-4x"></i>
+            <i id="pin-open" class="fab fa-pinterest-square fa-4x"></i>
           </div>
         </div>
       </nav>
@@ -60,7 +60,7 @@
       </section>
     </div>
     <section class="about-container">
-      <img class="about-img" src="assets/Background-image.png" alt="" />
+      <img class="about-img" src="assets/LA-Palms.png" alt="" />
       <div class="about-me">
         <h3>About Me</h3>
         <h4>
@@ -71,10 +71,16 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          aliquip ex ea commodo consequat. <span id="dots">...</span><br><br><span id="more">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.</span>
         </p>
         <div class="about-icons">
-          <button class="button">Read More</button>
+          <button id="read-more" class="button">Read More</button>
           <i id="linkedin" class="fab fa-linkedin fa-3x"></i>
           <i id="codepen" class="fab fa-codepen fa-3x"></i>
           <i id="github" class="fab fa-github-square fa-3x"></i>
@@ -106,38 +112,49 @@
     <section class="projects-container">
       <h3>Projects</h3>
       <div class="carousel">
-        <div class="project-one">
+        <div class="projects">
           <h2>01</h2>
           <h1>My Portfolio Project</h1>
-          <img class="project-one-img" src="assets/Runway-show.jpg" alt="" />
+          <img class="project-one-img" src="assets/Design-meeting.JPG" alt="" />
           <h3>Website using HTML, CSS and Javascript.</h3>
         </div>
-        <div class="project-two">
+        <div class="projects">
           <h2>02</h2>
           <h1>My Next Project</h1>
-          <img class="project-two-img" src="assets/Palm-Tree-Walk.JPG" alt="" />
+          <img class="project-two-img" src="assets/Pantones.png" alt="" />
           <h3>Not sure what we will be doing yet</h3>
         </div>
       </div>
+      <div class="projects">
+        <h2>03</h2>
+        <h1>My Next Project</h1>
+        <img class="project-three-img" src="assets/Runway-show.jpg" alt="" />
+        <h3>Not sure what we will be doing yet</h3>
+      </div>
+    </div>
+    <div class="projects">
+      <h2>04</h2>
+      <h1>My Next Project</h1>
+      <img class="project-four-img" src="assets/Palm-Tree-Walk.JPG" alt="" />
+      <h3>Not sure what we will be doing yet</h3>
+    </div>
+  </div>
       <i id="right-arrow" class="fas fa-arrow-circle-right fa-4x"></i>
       <!-- <i id="right-arrow-web" class="fas fa-arrow-circle-right fa-5x"></i> -->
     </section>
     <section class="contact-container">
       <div class="contact-text">
         <h1>Contact Me</h1>
-        <h2>Let's be friends!</h2>
+        <h2>Drop me a message!</h2>
         <form>
           <input type="text" id="fname" name="fname" value="Full Name*" /><br />
-          <input
-            type="text"
-            id="email"
-            name="email"
-            value="Email Address*"
-          /><br /><br />
+          <input type="text" id="email" name="email" value="Email Address*" /><br /><br />
+          <textarea name="message" rows="10" cols="30">Write your message here.</textarea>
+          <br>
           <input class="button" type="submit" value="Let's Connect" />
         </form>
       </div>
-      <img class="headshot-contact" src="assets/Headshot-colorful.JPG" alt="" />
+      <img class="headshot-contact" src="assets/Headshot-beach.jpg" alt="" />
     </section>
     <footer>
       <h3>Lauren Colvin 2022</h3>
