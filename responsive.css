@@ -65,9 +65,9 @@
     justify-content: space-around;
 }
 
-.project-two {
+/* .project-two {
     display: block;
-}
+} */
 
 .project-one-img {
     width: 80%;
@@ -83,6 +83,23 @@
     object-position: center;
   }
 
+  .project-three-img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    object-position: center;
+  }
+  
+  .project-four-img {
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    object-position: center;
+  }
 
 /* CONTACT STYLING */
 .contact-container {
@@ -100,7 +117,7 @@
     display: block;
     width: 50%;
     margin-right: -50px;
-    height: 450px;
+    height: 650px;
     position: relative;
     object-position: bottom;
 }
@@ -130,8 +147,6 @@
     }
   
   .headshot-contact {
-      display: block;
-      width: 50%;  
       margin-right: -120px;
       position: relative;
       object-position: center;
@@ -171,42 +186,4 @@
       margin-top: -80px;
     }
   
-  
-  
-  /* CONTACT STYLING */
-  /* .contact-text {
-      margin-left: 10%;
-      margin-bottom: 10%;
-  }
-  .contact-container h1 {
-      padding: 40px;
-      margin-top: 100px;
-      font-size: 5em;
-    }
-  
-  .contact-container h2 {
-      margin-top: -110px;
-    }
-    
-    input {
-      margin: 30px;
-      padding: 20px;
-      width: 70%;
-      font-size: 1em;
-      font-family: Northern-Worssley;
-      letter-spacing: 3px;
-    }
-    
-    .contact-container .button {
-        margin: 0;
-        height: 2em;
-        width: 10em;
-      }
-   */
-  /* FOOTER STYLING */
-  
-  /* footer h3 {
-      font-size: 1em;
-    }
-  
-  } */
+  } 
