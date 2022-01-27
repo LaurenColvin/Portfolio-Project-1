@@ -2,7 +2,9 @@ $(() => {
 if (typeof $ == 'undefined'){
     console.log('oops! I still have to link my jQuery properly!');
   } else {console.log('I did it! I linked jQuery and this js file properly!')};
-  
+
+
+  /* MENU FUNCTIONS */
   const openMenu = function(e) {
     console.log('open')
     // $(".menu-open").css("display", "block");
@@ -21,6 +23,9 @@ if (typeof $ == 'undefined'){
   $('.click-menu' ).on('click', openMenu);
 
   $('#x-icon' ).on('click', closeMenu);
+
+
+  /* SCROLL FUNCTIONS */
 
   const goAbout = function(e) {
     console.log('about')
@@ -60,12 +65,33 @@ if (typeof $ == 'undefined'){
   $('#contact-open').on('click', closeMenu);
   $('#contact-open').on('click', goContact);
 
+
+/* ICONS TO LINKS */ 
+  
 const goInsta = function(e) {
   console.log('insta')
   window.open('https://www.instagram.com/laurencoolvin/?hl=en', '_blank')
 }
 
 $('#insta').on('click', goInsta);
+$('#insta-open').on('click', goInsta);
+
+const goFaceboook = function(e) {
+  console.log('FB')
+  window.open('https://www.facebook.com/lauren.colvin1', '_blank')
+}
+
+$('#facebook').on('click', goFaceboook);
+$('#fb-open').on('click', goFaceboook);
+
+const goPinterest = function(e) {
+  console.log('Pin')
+  window.open('https://www.pinterest.com/laurencolvindesigns', '_blank')
+}
+
+$('#pinterest').on('click', goPinterest);
+$('#pin-open').on('click', goPinterest);
+
 
 const goLinkedin = function(e) {
   console.log('linkedin')
@@ -88,6 +114,56 @@ const goGithub = function(e) {
 }
 
 $('#github').on('click', goGithub);
+
+
+/* READ MORE */
+
+const readMore = function(e) {
+  console.log('read more')
+  $("#more").slideToggle();
+  $("#dots").css("display", "none");
+  if ($("#read-more").text() == "Read More") { 
+    $("#read-more").text("Read Less"); 
+} else { 
+    $("#read-more").text("Read More"); 
+}; 
+  e.preventDefault();
+};
+
+$('#read-more').on('click', readMore);
+
+
+
+/* CAROUSEL FUNCTION */
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+let plusSlides= function(e){
+  let n=1;
+  showSlides(slideIndex += n);
+  console.log("next");
+  e.preventDefault();
+}
+
+function showSlides(n) {
+  let slides = document.getElementsByClassName("projects");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1){slideIndex = slides.length}
+  for (let i = 0; i < slides.length; i++) {
+    $(slides[slideIndex-1]).css("display","block");
+  }
+}
+
+const nextSlide = function(e) {
+  console.log('carousel')
+  $(".project-one").css("display", "none");
+  // $(".project-two").css("display", "flex");
+  $(".project-three").css("display", "block");
+  e.preventDefault();
+};
+
+$('#right-arrow' ).on('click', plusSlides);
 
 
 
