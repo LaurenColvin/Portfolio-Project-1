@@ -167,6 +167,8 @@ li {
   padding: 60px;
 }
 
+
+
 /* BACKGROUND IMAGE STYLING */
 body {
   background-color: var(--tan);
@@ -286,7 +288,7 @@ body {
 
 /* SKILLS STYLING */
 .icons-container {
-  margin: 0 10%;
+  margin: 5% 10%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -358,6 +360,10 @@ body {
 
 .projects {
     display: none;
+}
+
+.active {
+  display: block;
 }
 
 
