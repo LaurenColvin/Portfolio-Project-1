@@ -6,19 +6,19 @@ html, body {
 /* FONT LINKS */
 @font-face {
   font-family: Northern-Worssley;
-  src: url("assets/Northern\ Worssley\ Free.ttf");
+  src: url("Assets/Northern\ Worssley\ Free.ttf");
   font-size: 100%;
 }
 
 @font-face {
   font-family: Creattion;
-  src: url("assets/modernline.otf");
+  src: url("Assets/modernline.otf");
   font-size: 100%;
 }
 
 @font-face {
   font-family: Bohemian-Soul;
-  src: url("assets/Bohemian\ Soul.otf");
+  src: url("Assets/Bohemian\ Soul.otf");
   font-size: 100%;
 }
 
