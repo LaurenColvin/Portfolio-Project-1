@@ -1,6 +1,8 @@
 /* STYLING FOR ALL */
 html, body {
   scroll-behavior: smooth;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 /* FONT LINKS */
