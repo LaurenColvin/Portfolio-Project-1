@@ -27,7 +27,7 @@ html, body {
 /* COLOR SCHEME */
 
 :root {
-    --pink: ivory;
+    --pink: rgb(253, 218, 207);
     --blue: #BACDBD;
     --tan: #f5f2e6;
 }
@@ -85,7 +85,7 @@ h6 {
 
 p {
   font-size: 1.3em;
-  color: ivory;
+  color: black;
   padding: 0 10%;
   text-align: justify;
   line-height: 35px;
@@ -97,7 +97,6 @@ nav {
   margin: 0 auto;
   padding: 0;
   position: sticky;
-  background-color: var(--tan);
 }
 
 .menu-items {
@@ -126,6 +125,9 @@ nav {
   align-content: center;
   margin-top: 18px;
   cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 #hamburger-icon {
@@ -145,7 +147,6 @@ nav {
 .menu-open {
   display: none;
   height: 100%;
-  background-color: var(--tan);
 }
 
 #x-icon {
@@ -173,13 +174,14 @@ li {
 
 /* BACKGROUND IMAGE STYLING */
 body {
-  background-color: var(--tan);
+  background-image: linear-gradient(var(--blue), var(--tan));
   margin: 0;
   padding: 0;
 }
 
 .img-container {
-  background-image: url("Assets/Palm\ Shadow.png");
+  /* background-image: url("Assets/Palm\ Shadow.png"); */
+  background-image: linear-gradient(var(--blue), var(--tan));
   background-position: bottom;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -204,7 +206,8 @@ body {
 
 .headshot {
   width: 200px;
-  object-fit: cover;
+  border-radius: 500px;
+  box-shadow: 1px 1px 2px 4px lightgray;
   display: none;
 }
 
@@ -213,8 +216,16 @@ body {
 }
 
 /* ABOUT STYLING */
+/* .about-me {
+  border: 1px solid;
+  margin: 40px;
+  border-radius: 100px;
+  background-color: var(--tan);
+  box-shadow: 1px 1px 2px 4px lightgray;
+} */
+
 .about-container {
-  background-color: var(--blue);
+  background-color: var(--tan);
 }
 
 .about-img {
@@ -226,6 +237,7 @@ body {
   padding: 0 10%;
   text-align: justify;
   line-height: 35px;
+  color: black;
 }
 
 .about-icons {
@@ -237,7 +249,7 @@ body {
 
 #linkedin, #codepen, #github, #insta, #facebook, #pinterest  {
   padding: 0 15px;
-  color: ivory;
+  color: var(--blue);
 }
 
 #insta, #facebook, #pinterest {
@@ -255,32 +267,10 @@ body {
   font-weight: 900;
   color: black;
   border: none;
-  background-color: ivory;
+  background-color: var(--blue);
   height: 50px;
   width: 200px;
 }
-
-/* CHANGE TO READ MORE WITH A SPAN */
-
-/* .pop-out {
-  display: none;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: var(--tan);
-}
-
-.read-more-content {
-  border: 1px solid black;
-  width: 80%;
-  margin: 15% auto;
-}
-
-#x-out {
-  float: right;
-  color: black;
-} */
 
 /* READ MORE WITH SPAN */
 
@@ -299,16 +289,19 @@ body {
 #skill {
   color: black;
   padding: 20px;
+  background-color: white;
+  background-image: linear-gradient(rgb(220, 246, 255), rgb(253, 218, 207)) ;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px 4px lightgray;
 }
-
-#skill-web {
-    display: none;
-  }
 
 .adobe {
   width: 60px;
   padding: 20px;
-  /* background-color: azure; */
+  background-color: white;
+  background-image: linear-gradient(rgb(220, 246, 255), rgb(253, 218, 207)) ;
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px 4px lightgray;
 }
 
 /* PROJECTS STYLING */
@@ -343,7 +336,7 @@ body {
 }
 
 .projects img {
-  width: 70%;
+  width: 100%;
   object-fit: cover;
   display: block;
   margin: 0 auto;
