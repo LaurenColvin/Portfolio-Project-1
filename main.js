@@ -7,8 +7,6 @@ if (typeof $ == 'undefined'){
   /* MENU FUNCTIONS */
   const openMenu = function(e) {
     console.log('open')
-    // $(".menu-open").css("display", "block");
-    // $(".menu-closed").css("display", "none");
     $('.menu-open').slideToggle();
     e.preventDefault();
   };
@@ -22,7 +20,7 @@ if (typeof $ == 'undefined'){
 
   $('.click-menu' ).on('click', openMenu);
 
-  $('#x-icon' ).on('click', closeMenu);
+
 
 
   /* SCROLL FUNCTIONS */
