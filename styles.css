@@ -96,7 +96,6 @@ p {
 nav {
   margin: 0 auto;
   padding: 0;
-  position: sticky;
 }
 
 .menu-items {
@@ -149,12 +148,6 @@ nav {
   height: 100%;
 }
 
-#x-icon {
-  display: flex;
-  justify-content: right;
-  margin-right: 30px;
-}
-
 li {
   list-style-type: none;
   text-align: center;
@@ -162,12 +155,6 @@ li {
   font-size: 1.8em;
   font-family: Northern-Worssley;
   letter-spacing: 3px;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: space-around;
-  padding: 60px;
 }
 
 
@@ -247,13 +234,9 @@ body {
   margin-right: 10%;
 }
 
-#linkedin, #codepen, #github, #insta, #facebook, #pinterest  {
-  padding: 0 15px;
+#linkedin, #codepen, #github  {
+  padding: 0 5%;
   color: var(--blue);
-}
-
-#insta, #facebook, #pinterest {
-  display: none;
 }
 
 .button {
@@ -293,6 +276,7 @@ body {
   background-image: linear-gradient(rgb(220, 246, 255), rgb(253, 218, 207)) ;
   border-radius: 15px;
   box-shadow: 1px 1px 2px 4px lightgray;
+  margin: 10px;
 }
 
 .adobe {
@@ -302,6 +286,7 @@ body {
   background-image: linear-gradient(rgb(220, 246, 255), rgb(253, 218, 207)) ;
   border-radius: 15px;
   box-shadow: 1px 1px 2px 4px lightgray;
+  margin: 10px;
 }
 
 /* PROJECTS STYLING */
@@ -409,9 +394,25 @@ textarea {
   }
 
 /* FOOTER STYLING */
+footer {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+}
 
 footer h3 {
-  font-size: .8em;
+  font-size: .5em;
   text-align: right;
-  margin-right: 30px;
+  grid-column: 2 / 3;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  grid-column: 1 / 2;
+}
+
+.social-icons i {
+  padding: 10px;
 }
