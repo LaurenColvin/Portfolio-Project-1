@@ -196,6 +196,8 @@ body {
 
 .headshot {
   display: block;
+  height: 100%;
+  object-fit: cover;
 }
 
 .blue-box {
@@ -210,6 +212,8 @@ body {
 
 .about-container {
   background-color: var(--blue);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .about-img {
@@ -231,19 +235,13 @@ body {
 .about-icons {
   display: flex;
   justify-content: space-around;
-  align-content: center;
-  margin-right: 10%;
-}
-
-#linkedin, #codepen, #github  {
-  padding: 0 5%;
-  color: var(--blue);
+  flex-direction: column;
+  margin: 0 10% 10% 10%;
 }
 
 .button {
-  margin-bottom: 10%;
-  margin-left: 10%;
-  margin-right: 30px;
+  margin: 20% auto;
+  margin-top: 0;
   text-align: center;
   font-family: Northern-Worssley;
   letter-spacing: 3px;
@@ -315,7 +313,7 @@ body {
 
 .projects-container h1 {
   text-align: right;
-  font-size: 3em;
+  font-size: 2.5em;
   transform: rotate(-3deg);
   margin-right: 5%;
   margin-top: -80px;
@@ -400,5 +398,5 @@ footer h3 {
 }
 
 .social-icons i {
-  padding: 0 15%;
+  padding: 0 5%;
 }
