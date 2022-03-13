@@ -68,7 +68,7 @@ if (typeof $ == 'undefined'){
   
 const goInsta = function(e) {
   console.log('insta')
-  window.open('https://www.instagram.com/laurencoolvin/?hl=en', '_blank')
+  window.open('https://www.instagram.com/letstalkloco/?hl=en', '_blank')
 }
 
 $('#insta').on('click', goInsta);
@@ -76,7 +76,7 @@ $('#insta-open').on('click', goInsta);
 
 const goFaceboook = function(e) {
   console.log('FB')
-  window.open('https://www.facebook.com/lauren.colvin1', '_blank')
+  window.open('https://www.facebook.com/letstalkloco/', '_blank')
 }
 
 $('#facebook').on('click', goFaceboook);
