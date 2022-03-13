@@ -86,24 +86,19 @@
     min-height: 60%;
 }
 
+.button {
+  margin-bottom: 10%;
+}
+
 .social-icons {
   display: flex;
   justify-content: space-evenly;
 }
 
 .social-icons i {
-  padding: 0 18%;
+  padding: 0 auto;
 }
 
-
-/* SKILLS STYLING */
-#skill {
-    padding: 15px;
-}
-
-.adobe {
-    padding: 15px;
-}
 
 /* PROJECTS STYLING */
 
@@ -121,6 +116,9 @@
   object-position: center;
 }
 
+.projects-container h1 {
+  font-size: 3em;
+}
 
 /* CONTACT STYLING */
 .contact-container {
@@ -188,7 +186,15 @@
     padding: 0 30%;
   }
   
+  .about-icons {
+    flex-direction: row;
+  }
   
+  .button {
+    margin: 0;
+    margin-left: -10px;
+  }
+
     /* PROJECTS SIZE ADJUSTMENT */
   
     .projects img {
