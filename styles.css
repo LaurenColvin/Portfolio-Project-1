@@ -99,6 +99,7 @@ nav {
   background-color: rgb(250, 243, 234);
   position: sticky;
   top: -15px;
+  z-index: 3;
 }
 
 .menu-items {
@@ -170,13 +171,17 @@ body {
 
 /* INTRO STYLING */
 .intro {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.intro-text {
   margin: 0 30px;
 }
 
 .intro h1 {
   text-align: left;
   margin-left: 15px;
-  margin-top: 45%;
   color: var(--blue)
 }
 
@@ -190,6 +195,10 @@ body {
 }
 
 .headshot {
+  display: block;
+}
+
+.blue-box {
   display: none;
 }
 
@@ -197,12 +206,18 @@ body {
   margin-bottom: 20%;
 }
 
+/* ABOUT ME STYLING */
+
 .about-container {
   background-color: var(--blue);
 }
 
 .about-img {
   max-width: 100%;
+}
+
+.about-me h3 {
+  margin-top: 15%;
 }
 
 .about-me h4 {
@@ -247,7 +262,11 @@ body {
   display: none;
 }
 
-/* SKILLS STYLING */
+/* LISTEN MORE STYLING */
+
+.skills-container h3 {
+  margin-top: 5%;
+}
 
 .icons-container {
   margin: 5% 10%;
