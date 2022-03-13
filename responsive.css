@@ -98,7 +98,15 @@
 .social-icons i {
   padding: 0 auto;
 }
+ p {
+   line-height: 35px;
+   font-size: 1.3em;
+ }
 
+ .about-me h4 {
+   font-size: 1.5em;
+   line-height: 35px;
+ }
 
 /* PROJECTS STYLING */
 
@@ -117,7 +125,8 @@
 }
 
 .projects-container h1 {
-  font-size: 3em;
+  font-size: 2.5em;
+  margin-right: 5%;
 }
 
 /* CONTACT STYLING */
@@ -212,7 +221,7 @@
     }
     
     .projects-container h1 {
-      font-size: 3em;
+      font-size: 3.5em;
       transform: rotate(-3deg);
       margin-right: 10%;
       margin-top: -80px;
