@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px) {
-    
+
 /* NAV BAR STYLING */
     .menu-items {
         display: inline-block;
@@ -15,6 +15,10 @@
     }
 
 /* OPEN MENU STYLING */
+.click-menu {
+  display: none;
+}
+
 .menu-open {
   }
 
@@ -22,17 +26,21 @@
 .intro {
     display: flex;
     justify-content: space-between;
+    /* margin: 0 100px; */
 }
 
 .intro-text {
-    margin-left: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .headshot {
-    width: 40%;
-    height: 20%;
-    margin: 10% 0 10% 10%;
+    width: 400px;
+    height: 400px;
+    margin-top: 18%;
+    margin-right: 5%;
     object-fit: cover;
+    object-position: center;
     display: block;
   }
 
@@ -47,6 +55,15 @@
     max-width: 40%;
     object-fit: cover;
     min-height: 60%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-icons i {
+  padding: 0 18%;
 }
 
 
@@ -68,7 +85,7 @@
 
 .projects img {
   width: 80%;
-  height: 300px;
+  height: 500px;
   object-fit: cover;
   display: block;
   margin: 0 auto;
@@ -109,13 +126,12 @@
     src: url("assets/modernline.otf");
     font-size: 200%;
   }
-  
       
   /* IMAGE SIZE ADJUSTMENT */
   .headshot {
-      width: 30%;
+      /* width: 30%;
       height: 10%;
-      margin: 10% 8% 5% 5%;
+      margin: 10% 8% 5% 5%; */
     }
   
   .headshot-contact {
@@ -127,11 +143,16 @@
   #insta, #facebook, #pinterest {
     display:inline;
   }
+
+  .social-icons i {
+    padding: 0 30%;
+  }
+  
   
     /* PROJECTS SIZE ADJUSTMENT */
   
     .projects img {
-      height: 400px;
+      height: 600px;
   }
   
     .projects h3 {
@@ -152,3 +173,15 @@
     }
   
   } 
+
+  @media only screen and (min-width: 1500px) {
+  body {
+    margin: 0 10%;
+  }
+
+  .hamburger-menu {
+    top: 0px;
+    right: 10%;
+  }
+
+  }
