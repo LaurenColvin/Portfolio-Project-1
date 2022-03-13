@@ -28,8 +28,8 @@ html, body {
 
 :root {
     --pink: rgb(253, 218, 207);
-    --blue: #BACDBD;
-    --tan: #f5f2e6;
+    --blue:#95ccec;
+    --tan: rgb(250, 243, 234);
 }
 
 /* FONT STYLING */
@@ -44,7 +44,7 @@ h1 {
 
 h2 {
   font-size: 2.5em;
-  color: ivory;
+  color: var(--blue);
   margin-top: -35px;
   /* font-family: Bohemian-Soul;
   line-height: 30px; */
@@ -60,7 +60,7 @@ h3 {
 
 h4 {
   font-size: 1.5em;
-  color: ivory;
+  color: var(--blue);
   font-weight: 200;
   /* font-family: Bohemian-Soul;
   line-height: 30px; */
@@ -96,6 +96,9 @@ p {
 nav {
   margin: 0 auto;
   padding: 0;
+  background-color: rgb(250, 243, 234);
+  position: sticky;
+  top: -15px;
 }
 
 .menu-items {
@@ -161,40 +164,32 @@ li {
 
 /* BACKGROUND IMAGE STYLING */
 body {
-  background-image: linear-gradient(var(--blue), var(--tan));
   margin: 0;
   padding: 0;
 }
 
-.img-container {
-  /* background-image: url("Assets/Palm\ Shadow.png"); */
-  background-image: linear-gradient(var(--blue), var(--tan));
-  background-position: bottom;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 100%;
-}
-
 /* INTRO STYLING */
 .intro {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 0 30px;
 }
 
 .intro h1 {
   text-align: left;
   margin-left: 15px;
   margin-top: 45%;
+  color: var(--blue)
+}
+
+.intro h2 {
+  color: black;
 }
 
 .intro h4 {
   margin-top: -25px;
+  color: black;
 }
 
 .headshot {
-  width: 200px;
-  border-radius: 500px;
-  box-shadow: 1px 1px 2px 4px lightgray;
   display: none;
 }
 
@@ -202,17 +197,8 @@ body {
   margin-bottom: 20%;
 }
 
-/* ABOUT STYLING */
-/* .about-me {
-  border: 1px solid;
-  margin: 40px;
-  border-radius: 100px;
-  background-color: var(--tan);
-  box-shadow: 1px 1px 2px 4px lightgray;
-} */
-
 .about-container {
-  background-color: var(--tan);
+  background-color: var(--blue);
 }
 
 .about-img {
@@ -229,7 +215,7 @@ body {
 
 .about-icons {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-content: center;
   margin-right: 10%;
 }
@@ -250,7 +236,7 @@ body {
   font-weight: 900;
   color: black;
   border: none;
-  background-color: var(--blue);
+  background-color: white;
   height: 50px;
   width: 200px;
 }
@@ -262,6 +248,7 @@ body {
 }
 
 /* SKILLS STYLING */
+
 .icons-container {
   margin: 5% 10%;
   display: flex;
@@ -302,16 +289,16 @@ body {
 .projects-container h2 {
   color: var(--blue);
   font-size: 5em;
-  margin-left: 20%;
+  margin-left: 5%;
   margin-bottom: -80px;
   margin-top: 10%;
 }
 
 .projects-container h1 {
   text-align: right;
-  font-size: 1.8em;
+  font-size: 3em;
   transform: rotate(-3deg);
-  margin-right: 20%;
+  margin-right: 5%;
   margin-top: -80px;
 }
 
@@ -325,25 +312,6 @@ body {
   object-fit: cover;
   display: block;
   margin: 0 auto;
-}
-
-#right-arrow {
-  color: var(--blue);
-  margin-right: 10%;
-  display: flex;
-  justify-content: flex-end;
-}
-
-#right-arrow-web {
-    display: none;
-}
-
-.projects {
-    display: none;
-}
-
-.active {
-  display: block;
 }
 
 
@@ -410,9 +378,8 @@ footer h3 {
 .social-icons {
   display: flex;
   justify-content: space-around;
-  grid-column: 1 / 2;
 }
 
 .social-icons i {
-  padding: 10px;
+  padding: 0 15%;
 }
