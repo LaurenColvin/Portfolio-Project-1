@@ -1,5 +1,5 @@
-# Portfolio-Project-1
-Portfolio Website using HTML, CSS and Javascript
+# :coconut: Let's Talk LoCo :microphone:
+Podcast website using HTML, CSS and Javascript
 
 # Project Overview
 
@@ -20,8 +20,8 @@ Portfolio Website using HTML, CSS and Javascript
 
 ## Project Description
 
-For this project I want a clean, aesthetically pleasing website with large images, simple icons, a carousel of projects, and a contact me form at the end.
-I am modeling my portfolio website after my favorite blog/podcast [Jenna Kutcher](https://jennakutcher.com/)
+For this project I wanted a clean, aesthetically pleasing website with large images, simple icons, and a contact me form at the end.
+I am modeled this website after my favorite blog/podcast [Jenna Kutcher](https://jennakutcher.com/)
 
 ## Wireframes
 
