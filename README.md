@@ -1,5 +1,5 @@
-# :coconut: Let's Talk LoCo :microphone:
-Podcast website using HTML, CSS and Javascript
+# :coconut: Let's Talk LoCo :coconut:
+:microphone: Podcast website using HTML, CSS and Javascript
 
 # Project Overview
 
