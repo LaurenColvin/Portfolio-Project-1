@@ -1,5 +1,6 @@
 # :coconut: Let's Talk LoCo :coconut:
-:microphone: Podcast website using HTML, CSS and Javascript
+:microphone: Podcast website using HTML, CSS and Javascript.  
+Check out the [live site!](https://laurencolvin.github.io/Portfolio-Project-1/)
 
 # Project Overview
 
