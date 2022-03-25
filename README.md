@@ -109,7 +109,6 @@ $('#read-more').on('click', readMore);
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
 
 **ERROR**: Your branch and 'origin/main' have diverged,
 and have 3 and 2 different commits each, respectively.
