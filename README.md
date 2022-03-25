@@ -2,7 +2,12 @@
 :microphone: Podcast website using HTML, CSS and Javascript.  
 Check out the [live site!](https://laurencolvin.github.io/Portfolio-Project-1/)
 
-# Project Overview
+## Project Description
+
+For this project I wanted a clean, aesthetically pleasing website with large images, simple icons, and a contact me form at the end.
+I am modeled this website after my favorite blog/podcast [Jenna Kutcher](https://jennakutcher.com/)
+
+![alt text](./Assets/Podcast-Project-1.png)
 
 ## Project Schedule
 
@@ -18,11 +23,6 @@ Check out the [live site!](https://laurencolvin.github.io/Portfolio-Project-1/)
 |Day 4| Final Touches | Incomplete
 |Day 5| Present | Incomplete
 
-
-## Project Description
-
-For this project I wanted a clean, aesthetically pleasing website with large images, simple icons, and a contact me form at the end.
-I am modeled this website after my favorite blog/podcast [Jenna Kutcher](https://jennakutcher.com/)
 
 ## Wireframes
 
