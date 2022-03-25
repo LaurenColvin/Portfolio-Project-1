@@ -5,7 +5,7 @@ Check out the [live site!](https://laurencolvin.github.io/Portfolio-Project-1/)
 ## Project Description
 
 For this project I wanted a clean, aesthetically pleasing website with large images, simple icons, and a contact me form at the end.
-I am modeled this website after my favorite blog/podcast [Jenna Kutcher](https://jennakutcher.com/)
+I modeled this website after my favorite blog/podcast [Jenna Kutcher](https://jennakutcher.com/)
 
 ![alt text](./Assets/Podcast-Project-1.png)
 
